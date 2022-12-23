@@ -1,0 +1,502 @@
+{
+        "menus":{
+            "EN": [
+
+                
+                        {
+                            "icon": "images/exteriorFeatur.svg",
+                            "mobileTitle": "Cookstops",
+                            "cameraName": "Render_Cam_F01_Cooktop",
+                            "menuVisibility": "show",
+                            "drawer": "seventhDrawer",
+                            "panel": "",
+                          
+
+                            "title":"Cookstops",
+                            "id":"",
+                            "category":"cooktop-category",
+                            "img1":"./images/icons/cooktop.svg",
+                            "img2":"./images/icons2/cooktop.svg",
+                            "items":[
+                                {
+                                    "title":"SCH2443GB",
+                                    "description":"24' Induction Cooktop with EuroKera Glass",
+                                    "type":"",
+                                    "icon": "",
+                                    "mobileTitle": "SCH2443GB",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                },
+                                {
+                                    "title":"SCR2442FB",
+                                    "description":"24' Radiant Cooktop with Side Accessories",
+                                    "type":"",
+                                    "icon": "",
+                                    "mobileTitle": "SCR2442FB",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                }
+                            ]
+                        },
+
+                        {
+                            "icon": "images/exteriorFeatur.svg",
+                            "mobileTitle": "Dishwashers",
+                            "cameraName": "Render_Cam_F01_Dishwasher",
+                            "menuVisibility": "show",
+                            "drawer": "seventhDrawer",
+                            "panel": "",
+
+
+                            "title":"Dishwashers",
+                            "id":"",
+                            "category":"dishwasher-category",
+                            "img1":"./images/icons/diswasher.svg",
+                            "img2":"./images/icons2/diswasher.svg",
+                            "items":[
+
+                                {
+                                    "title":"SDW6757ES",
+                                    "description":"24' Dishwasher, Stainless, Handle",
+                                    "type":"",
+                                    "icon": "",
+                                    "mobileTitle": "SDW6757ES",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                },
+                                {
+                                    "title":"SDW6747GS",
+                                    "description":"24' Dishwasher, Stainless, Pocket Handle, Lowe's",
+                                    "type":"",
+                                    "icon": "",
+                                    "mobileTitle": "SDW6747GS",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                },
+                                {
+                                    "title":"SDW6767HS",
+                                    "description":"24' Smart Dishwasher, Stainless, Pocket Handle",
+                                    "type":"",
+                                    "icon": "",
+                                    "mobileTitle": "SDW6767HS",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                }
+
+                            ]
+                        },
+
+                        {
+                            "icon": "images/selectProductType-icon.svg",
+                            "mobileTitle": "Microwave Drawer™ Ovens",
+                            "cameraName": "Render_Cam_F01_FL",
+                            "menuVisibility": "show",
+                            "drawer": "firstDrawer",
+                            "panel": "",
+                            
+
+                            "title": "Microwave Drawer™ Ovens",
+                            "id": "",
+                            "category":"drawerOven-category",
+                            "img1":"./images/icons/drawer_oven.svg",
+                            "img2":"./images/icons2/drawer_oven.svg",
+                            "items": [
+                                {
+
+                                      
+                                        "description": "24' Smart Convection Microwave Drawer™ Oven",
+                                    
+                                        "icon": "images/selectProductType-icon.svg",
+                                        "title": "SMD2499FS",
+                                        "mobileTitle": "SMD2499FS",
+                                        "cameraName": "Render_Cam_F01_FL",
+                                        "id": "SMD2499FS",
+                                        "type": "Microwave-Drawer-Ovens",
+                                        "popupVisibility":false,
+                                        "img": "./img/final/SMD2449FS.png",
+                                        "popupHeading": "Render_Cam_F01_FL",
+                                        "popupId":"ports_popup1",
+                                        "popupStyle":{},
+                                        "content": [],
+                                        "checked": true
+
+                                      
+                                    
+                                },
+                                {
+        
+                                        "title": "SMD2489ES",
+                                        "description": "24' Smart Microwave Drawer™ Oven",
+
+                                        "icon": "images/selectProductType-icon.svg",
+                                        "mobileTitle": "SMD2489ES",
+                                        "cameraName": "Render_Cam_F01_FL",
+                                        "id": "SMD2489ES",
+                                        "type": "Microwave-Drawer-Ovens",
+                                        "popupVisibility":false,
+                                        "img": "./img/1.png",
+                                        "popupHeading": "Render_Cam_F01_FL",
+                                        "popupId":"ports_popup1",
+                                        "popupStyle":{},
+                                        "content": [],
+                                        "checked": true
+                                    
+                                },
+                                {
+                                        "title": "SMD2470AS",
+                                        "description": "24' Microwave Drawer™ Oven, Stainless",
+                                        "type":"Microwave-Drawer-Ovens",
+
+                                        "icon": "",
+                                        "mobileTitle": "SDW6767HS",
+                                        "cameraName": "",
+                                        "id": "",
+                                        "popupVisibility":false,
+                                        "img": "",
+                                        "popupHeading": "",
+                                        "popupId":"",
+                                        "popupStyle":{},
+                                        "content": [],
+                                        "checked": true
+                                   
+                                }
+                            
+                            ]
+
+                        },
+
+                        {
+                            "icon": "images/exteriorFeatur.svg",
+                            "mobileTitle": "Over-the-Range Microwave Ovens",
+                            "cameraName": "Render_Cam_F01_FL",
+                            "menuVisibility": "show",
+                            "drawer": "seventhDrawer",
+                            "panel": "",
+                           
+
+                            "title": "Over-the-Range Microwave Ovens",
+                            "id": "",
+                            "category":"overRange-micro-category",
+                            "img1":"./images/icons/overtherange_oven.svg",
+                            "img2":"./images/icons2/overtherange_oven.svg",
+                            "items": [
+    
+                                {
+                                    "title":"SMO1461GS",
+                                    "description":"1.4 cu. ft. Over-the-Range Microwave",
+                                    "type":"Over-the-Range-Microwave",
+
+                                    "icon": "",
+                                    "mobileTitle": "SDW6767HS",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                }
+                            
+                            ]
+                        },
+                        
+                        {
+
+                            "icon": "images/exteriorFeatur.svg",
+                            "mobileTitle": "Over-the-Counter",
+                            "cameraName": "",
+                            "menuVisibility": "show",
+                            "drawer": "",
+                            "panel": "",
+
+
+                            "title":"Over-the-Counter",
+                            "id":"",
+                            "category":"",
+                            "img1":"",
+                            "img2":"",
+                            "items":[
+                                {
+                                    "title":"R1210TY",
+                                    "description":"1.5 cu. ft. Over-the-Counter Microwave, White",
+                                    "type":"",
+
+                                   
+                                    "icon": "",
+                                    "mobileTitle": "R1210TY",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                },
+                                {
+                                    "title":"R1211TY",
+                                    "description":"1.5 cu. ft. Over-the-Counter Microwave, Black",
+                                    "type":"",
+
+                                    "icon": "",
+                                    "mobileTitle": "R1211TY",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                },
+                                {
+                                    "title":"R1214TY",
+                                    "description":"1.5 cu. ft. Over-the-Counter Microwave, Stainless",
+                                    "type":"",
+
+
+                                    "icon": "",
+                                    "mobileTitle": "R1214TY",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                }
+                            ]
+
+                        },
+
+                        {
+                            "icon": "images/exteriorFeatur.svg",
+                            "mobileTitle": "Range Hoods",
+                            "cameraName": "",
+                            "menuVisibility": "show",
+                            "drawer": "seventhDrawer",
+                            "panel": "",
+                           
+
+                            "title":"Range Hoods",
+                            "id":"",
+                          
+                            "category":"hoodRange-category",
+                            "img1":"./images/icons/hood range.svg",
+                            "img2":"./images/icons2/hood range.svg",
+                            "items":[
+                                 {
+                                    "title":"SHC2432FS",
+                                    "description":"24' Range Hood, Stainless",
+                                    "type":"Range-Hoods",
+
+                                    "icon": "",
+                                    "mobileTitle": "SHC2432FS",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                 }
+                            ]
+                        },
+
+                        {
+                            "icon": "images/exteriorFeatur.svg",
+                            "mobileTitle": "Refrigerators",
+                            "cameraName": "Render_Cam_01_REFRIGERATOR",
+                            "menuVisibility": "show",
+                            "drawer": "seventhDrawer",
+                            "panel": "",
+                           
+
+                            "title":"Refrigerators",
+                            "id":"",
+                            "category":"refrigerator-category",
+                            "img1":"./images/icons/refrigerator.svg",
+                            "img2":"./images/icons2/refrigerator.svg",
+                            "items":[
+                                 {
+                                    "title":"SJB1255GS",
+                                    "description":"11.5 cu. ft. Counter-Depth Bottom Freezer Refrigerator",
+                                    "type":"Refrigerators",
+
+                                    "icon": "",
+                                    "mobileTitle": "SJB1255GS",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                 }
+                            ]
+                        },
+
+                        {
+
+                            "icon": "images/exteriorFeatur.svg",
+                            "mobileTitle": "Wall Ovens",
+                            "cameraName": "",
+                            "menuVisibility": "show",
+                            "drawer": "seventhDrawer",
+                            "panel": "",
+                           
+
+                            "title": "Wall Ovens",
+                            "id": "",
+                            "category":"wallOven-category",
+                            "img1":"./images/icons/wall_oven.svg",
+                            "img2":"./images/icons2/wall_oven.svg",
+                            "items": [
+                                
+                                {
+                                    "title":"SWA2450GS",
+                                    "description":"24' Single True European Convection Wall Oven",
+                                    "type":"Wall-Ovens",
+
+                                   
+
+                                    "icon": "",
+                                    "mobileTitle": "SWA2450GS",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                },
+                                {
+                                    
+                                    "title":"SSC2489GS",
+                                    "description":"24' Smart Combi Steam Oven",
+                                    "type":"Wall-Ovens",
+
+                                    "icon": "",
+                                    "mobileTitle": "SSC2489GS",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+
+                                }
+
+                            ]
+                            
+                        },
+                        
+                        {
+                            "icon": "images/exteriorFeatur.svg",
+                            "mobileTitle": "",
+                            "cameraName": "",
+                            "menuVisibility": "show",
+                            "drawer": "seventhDrawer",
+                            "panel": "",
+
+
+                            "title":"Under-the-Counter Pedestals",
+                            "id":"",
+                            "category":"",
+                            "img1":"",
+                            "img2":"",
+                            "items":[
+                                {
+                                    "title":"SKCD24U0GS",
+                                    "description":"",
+                                    "type":"",
+
+                                   
+                                    "icon": "",
+                                    "mobileTitle": "SKCD24U0GS",
+                                    "cameraName": "",
+                                    "id": "",
+                                    "popupVisibility":false,
+                                    "img": "",
+                                    "popupHeading": "",
+                                    "popupId":"",
+                                    "popupStyle":{},
+                                    "content": [],
+                                    "checked": true
+                                },
+                                {
+                                     "title":"SKMD24U0ES",
+                                     "description":"",
+                                     "type":"",
+
+                                    
+                                     "icon": "",
+                                     "mobileTitle": "SKMD24U0ES",
+                                     "cameraName": "",
+                                     "id": "",
+                                     "popupVisibility":false,
+                                     "img": "",
+                                     "popupHeading": "",
+                                     "popupId":"",
+                                     "popupStyle":{},
+                                     "content": [],
+                                     "checked": true
+                                }
+                            ]
+
+                        }
+             ]
+
+    }
+
+}

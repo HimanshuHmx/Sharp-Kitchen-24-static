@@ -1,0 +1,419 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+	font-family: "SourceSansProRegular";
+	src: url('./assets/fonts/sourceSansPro/SourceSansPro-Regular.ttf');
+}
+@font-face {
+	font-family: "SourceSansProLight";
+	src: url('./assets/fonts/sourceSansPro/SourceSansPro-Light.ttf');
+}
+@font-face {
+	font-family: "SourceSansProSemiBold";
+	src: url('./assets/fonts/sourceSansPro/SourceSansPro-SemiBold.ttf');
+}
+@font-face {
+	font-family: "SourceSansProBold";
+	src: url('./assets/fonts/sourceSansPro/SourceSansPro-Bold.ttf');
+}
+
+html, body{
+  font-size: 1px;
+}
+body{
+  font-family: "SourceSansProRegular";
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  background:#ccc;
+  overflow: hidden;
+}
+.sourceSansProLight{
+  font-family: "SourceSansProLight";
+}
+
+.sourceSansProRegular{
+  font-family: "SourceSansProRegular";
+}
+
+.sourceSansProSemiBold{
+  font-family: "SourceSansProSemiBold";
+}
+
+.sourceSansProBold{
+  font-family: "SourceSansProBold";
+}
+
+.font10rem{
+  font-size: 10rem;
+}
+.font11rem{
+  font-size: 11rem;
+}
+.font12rem{
+  font-size: 12rem;
+}
+.font13rem{
+  font-size: 13rem;
+}
+.font14rem{
+  font-size: 14rem;
+}
+.font15rem{
+  font-size: 15rem;
+}
+.font16rem{
+  font-size: 16rem;
+}
+.font17rem{
+  font-size: 17rem;
+}
+.font18rem{
+  font-size: 18rem;
+}
+.font19rem{
+  font-size: 19rem;
+}
+.font20rem{
+  font-size: 20rem;
+}
+.font21rem{
+  font-size: 21rem;
+}
+.font22rem{
+  font-size: 22rem;
+}
+.font23rem{
+  font-size: 23rem;
+}
+.font24rem{
+  font-size: 24rem;
+}
+
+.leftCol{float: left; display: block; }
+/*Main Menu*/
+.mainMenu{width: 322px;}
+.mainMenu-headingText{
+  display: inline-block;
+  background-color: #9e9e9e;
+  color: #fff;
+  padding: 12px 10px;
+  min-height: 21px;
+  width: 77.5%;
+  color: #f5f5f5;
+  transition: margin 1s;
+  margin-left: 52px;
+}
+.mainMenu-btn{display: inline-block; vertical-align: middle; width: 53px; height: 45px;position: absolute;z-index: 1;}
+.close .mainMenu-btn{background: url('../public/images/mainMenu-hamburger-light.svg') 0 0 no-repeat;}
+.close .mainMenu-headingText{margin-left: -269px; font-size: 18px;height: 20px;}
+.open .mainMenu-btn{background: url('../public/images/mainMenu-cross-light.svg') 0 0 no-repeat;margin-left: 1px;}
+.open .mainMenu-headingText{
+  margin-left: 52px;
+  font-size: 18px;
+  height: 21px;
+}
+
+.open .menu{margin-left: 0;}
+.close .menu{margin-left: -322px;}
+.menu{
+  width: 100%;
+  height:calc(100vh - 45px);
+  padding: 0;
+  margin: 0;
+  transition: margin 1s;
+  background:rgb(242, 242, 242)
+}
+
+
+.menuIcon, .menuAccordion{list-style-type: none;padding: 0;margin: 0;}
+.menuIcon{float: left; width: 53px;}
+.menuAccordion{float: left; width: calc(100% - 53px);}
+/*Main Menu End*/
+
+.menuIcon{border-right: 1px solid rgb(221, 221, 221);}
+
+.menu{display: flex;}
+
+.menuIcon .leftbar-icons:hover{
+  background-color:#e2e2e3;
+  }
+
+
+/* ----------- */
+.icon-howToNavigate{background: url('../public/images/final/navigate.png') 0 0 repeat;}
+.icon-howToNavigate{height: 45px; 
+  width: 55px;
+}
+
+.howToNavigate{position: absolute; right: 0; top: 45px; padding: 0; margin: 0; border: none;}
+
+.show .howToNavigate-content{margin-right: 0px;}
+.hide .howToNavigate-content{margin-right: -280px;}
+.Navigate-btn{position: absolute; max-height: 45px; right: 0; top: 0%; padding: 0; margin: 0; border: none;}
+.howToNavigate-content{width:210px; height:280px;padding: 0; margin: 0; border: none;transition: margin 1s; background: #fff;}
+
+.howToNavigate-content h3{background-color: #9e9e9e;color: #fff;font-size: 18rem;font-weight: normal;padding: 0;margin: 0;min-height: 35px; margin-bottom:25px;text-align: center;padding-right: 55px;padding-top: 10px;}
+.howToNavigate-content .nav-description {padding-left: 18px; padding-right: 18px; margin-bottom: 25px;}
+.howToNavigate-content .nav-description .text{color: #808080; font-size: 12rem; text-transform: uppercase; margin-right: 18px;}
+.howToNavigate-content .nav-description.zoom .text{margin-right: 25px;}
+.howToNavigate-content .nav-description.move .text{margin-right: 27px;}
+.howToNavigate-content .nav-description .htn-icon{vertical-align: middle;}
+/* --------------- */
+
+
+.leftbar-icons{
+  height: 49px;
+  width: 53px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+
+.leftbar-icons .active{
+  display: none;
+}
+
+
+.refrigerator {transform: translate(-8px, -18px);}
+
+.menuIcon li:hover{background-color: #e2e2e3;cursor: pointer;}
+.leftbar-icons img {margin: 0;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);cursor: pointer;border-radius: 0;}
+.MainMenu.close{width:322px;}
+
+/* ------Accordion css-------- */
+
+.menuAccordion{margin: 0 auto;width: 100%;cursor: pointer;border-top: 1px solid rgb(221, 221, 221);min-height: 48px;}
+
+.menuAccordion .title{cursor: pointer;border-top: 1px solid #ddd;}
+
+.menuAccordion ul{list-style: none;background: #fff;}
+.menuAccordion ul label{display: flex;align-items: center;justify-content: space-between;font-size: 17px;font-weight: bold;width: 80%;cursor: pointer;color: #000;padding: 0px 13px;letter-spacing: 0.00938em;}
+
+.menuAccordion ul label span{transform: rotate(90deg);font-size: 22px;color: #333;}
+.menuAccordion .content{max-height: 0;overflow: hidden;transition: max-height 0.5s;}
+
+
+.menuAccordion ul{background: rgb(242, 242, 242);width: 267px;}
+.microwave-accordion ul{border-radius: 4px 0;}
+
+.overRange-micro-accordion ul{
+border-left: 1px solid rgb(221, 221, 221);
+}
+
+.rangeHoods-accordion{
+border-bottom: 1px solid rgb(221, 221, 221);
+border-left: 1px solid rgb(221, 221, 221);
+border-radius: 4px;
+}
+
+/* ------ Accordion ends --------- */
+
+.title label{line-height: 18px;}
+.container{display: flex;justify-content: space-between;}
+
+
+.navigate{margin-top: 45px;display: flex;flex-direction: column;align-items: end;height: 280px;width: 210px;}
+.navigate button{border: transparent;background: grey;cursor: pointer;}
+
+.navigate-row{display: flex;align-items: center;justify-content: center;padding: 10px 0px;width: 100%;}
+
+.navigate-row .navigate-title {
+  font-size: 11px;
+  color: rgb(128, 128, 128);
+  padding-top: 5px;
+  padding-left: 2px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.accordion-container .title label{font-family: "Roboto", "Helvetica", "Arial", sans-serif;  
+  font-size: 17px;
+  font-weight: bold;
+  flex-basis: 79%;
+  letter-spacing: 0.00938em;
+  cursor: pointer;
+}
+
+
+
+.navigate-row-move img{height: 44px;margin-left: 9px;}
+
+.navigate-row-zoom img {margin-left: 6px;height: 46px;}
+.mainMenu-heading{min-height: 45px;
+}
+
+.content-title p{font-size: 16px;color: #000;font-weight: 600;}
+.content-title img{height: 14px;width: 14px;}
+.avatar-img {
+  /* width: 68px; */
+  /* padding: 5px 16px; */
+}
+/* --------------- */
+
+.content-title{display: flex;justify-content: space-between;}
+.content-description{display: flex;justify-content: space-between;}
+.content-description p{
+  font-size: 14px;
+  color: #000;
+  width: 58%;
+  line-height: 21px;
+}
+.content button{width: 100%;text-align: right;background-color: rgb(231, 34, 36);color: #fff;padding: 3px 8px;border: rgb(231, 34, 36);}
+
+.arrowIcon{height:10px;width:10px;padding-right:12px;}
+
+.arrowIcon.down{
+  transform: rotate(90deg); /* Equal to rotateZ(45deg) */  
+}
+
+.menuIcon button{
+  border: transparent;
+}
+
+.menuAccordion ul .content{
+  display: none;
+}
+
+.leftbar-icons .tooltiptext {
+	visibility: hidden;
+	min-width: 150px;
+	background-color: black;
+	font-size: 15px;
+	color: #fff;
+	text-align: left;
+	border-radius: 6px;
+	padding: 5px 0 5px 40px;
+	position: absolute;
+	z-index: 1;
+	top: 85%;
+	left: 50%;
+	margin-left: -20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.leftbar-icons .tooltiptext::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 13%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
+}
+
+.leftbar-icons:hover .tooltiptext {
+	visibility: visible;
+}
+
+.ovenTooltip {
+	width: 230px;
+}
+.ovenTooltip::after {
+	left: 9% !important;
+}
+.overTheRangeTooltip {
+	width: 280px;
+}
+.overTheRangeTooltip::after {
+	left: 7% !important;
+}
+
+.container-content{
+  border: 1px solid;
+  margin: 5px 14px;
+}
+
+.leftbar-icons.selectedDrawer {
+  background-color: #e6000d;
+}
+
+.leftbar-icons.selectedDrawer:hover{
+  background-color: #e6000d;
+}
+
+.leftbar-icons.selectedDrawer .active{
+  display:block;
+}
+
+.leftbar-icons.selectedDrawer .normal{
+    display: none;
+}
+
+.menuAccordion .content li{
+  cursor:pointer;
+  }
+.card-content{
+padding-left: 3px;
+  }
+.avatar-img{
+  width: 85px;
+  padding: 10px;
+  } 
+
+  /* ----------------- */
+  .sharp-logo{
+    background: #fff;
+    width: 322px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    }
+
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    min-height: 46px;
+    padding: 0px 13px;
+    padding-top: 1px;
+    padding-left: 13px;
+    padding-right: 46px;
+  }
+    
+  .content{
+  color: #8b7f75;
+  max-height:0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+  cursor: pointer;
+  }
+  
+  .content.show{
+  display: block;
+  height: auto;
+  max-height: 90vh;
+  transition: all 0.5s cubic-bezier(1,0,1,0);
+  }
+/* --------------- */
+/* hotspots */
+
+
+.hotspots-cont{
+background-color: #fff;
+position: absolute;
+bottom: 0;
+right: 0;
+width: 50%;
+}
+
+.hotspots-cont .menuAccordion .content p{
+  font-size: 16px;
+}
+ 
+.hotspots-cont .menuAccordion ul{
+  width: 100%;
+} 
+
+.hotspots-cont .menuAccordion label{
+  font-size: 14px;
+}
